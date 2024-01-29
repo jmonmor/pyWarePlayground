@@ -15,7 +15,5 @@ setup(
   version='1.0',
   license='MIT',
   description='Handle the API payment',
-  author='toto',
-  
-  
+  author='toto', 
 )

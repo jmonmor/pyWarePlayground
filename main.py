@@ -1,1 +1,1 @@
-import method_2
+import method_2.src.check_file_validate as check_file_validate
