@@ -42,10 +42,3 @@ Repository = "https://github.com/Yao-Wen-Chang/py_obfuscation.git"
 [build-system]
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
-
-
-[tool.setuptools.install]
-# Configuration for installation process
-post-hook = [
-    'python -m str_processor.run'
-]
