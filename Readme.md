@@ -23,3 +23,8 @@ and run main.py
 
 ### method_4: Test file obfuscation
 [Welivesecurity](https://www.welivesecurity.com/en/eset-research/pernicious-potpourri-python-packages-pypi/)
+
+
+pip install git+https://github.com/Yao-Wen-Chang/py_obfuscation.git@master#subdirectory=method_1
+
+pip install git+https://github.com/Yao-Wen-Chang/py_obfuscation.git@master#subdirectory=method_1
